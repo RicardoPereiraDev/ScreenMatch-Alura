@@ -4,9 +4,6 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Principal {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        //System.out.printf("Hello and welcome!");
 
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
@@ -15,6 +12,19 @@ public class Principal {
         }
 
 
+
         Movie myMovie = new Movie();
+        myMovie.name = "The Godfather";
+        myMovie.yearOfRelease = 1984;
+        myMovie.durationInMinutes = 180;
+
+        myMovie.displaysTechnicalFile();
+        myMovie.evaluate(8);
+        myMovie.evaluate(10);
+        myMovie.evaluate(5);
+        System.out.println(myMovie.sumOfAvaliation);
+        System.out.println(myMovie.totalOfAvaliations);
+
+        System.out.println(String.format("Medium of total of avaliations is %.2f :" , myMovie.returnMediaOfAvaliations()));
     }
 }
