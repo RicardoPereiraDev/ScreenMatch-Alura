@@ -5,9 +5,11 @@ public class Movie {
     String name;
     int yearOfRelease;
     boolean includeInPlan;
-    double sumOfAvaliation;
-    int totalOfAvaliations;
+    private double sumOfAvaliation;
+    private int totalOfAvaliations;
     int durationInMinutes;
+
+
 
     void displaysTechnicalFile(){
         System.out.println("Name of movie: " + name);
@@ -18,6 +20,10 @@ public class Movie {
         sumOfAvaliation += note;
         totalOfAvaliations++;
 
+    }
+
+    int getTotalOfAvaliations(){
+        return totalOfAvaliations;
     }
 
     double returnMediaOfAvaliations(){
