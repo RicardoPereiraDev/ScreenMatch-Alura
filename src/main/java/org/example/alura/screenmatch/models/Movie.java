@@ -1,34 +1,50 @@
-package org.example;
+package org.example.alura.screenmatch.models;
 
 public class Movie {
 
-    String name;
-    int yearOfRelease;
-    boolean includeInPlan;
+    private String name;
+    private int yearOfRelease;
+    private boolean includeInPlan;
     private double sumOfAvaliation;
     private int totalOfAvaliations;
-    int durationInMinutes;
+   private int durationInMinutes;
 
 
 
-    void displaysTechnicalFile(){
+    public void displaysTechnicalFile(){
         System.out.println("Name of movie: " + name);
         System.out.println("The Year of release: " + yearOfRelease);
 
     }
-    void evaluate(double note){
+    public void evaluate(double note){
         sumOfAvaliation += note;
         totalOfAvaliations++;
 
     }
 
-    int getTotalOfAvaliations(){
+   public  int getTotalOfAvaliations(){
         return totalOfAvaliations;
     }
 
-    double returnMediaOfAvaliations(){
+    public double returnMediaOfAvaliations(){
 
         double media = sumOfAvaliation/totalOfAvaliations;
         return media;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setYearOfRelease(int yearOfRelease) {
+        this.yearOfRelease = yearOfRelease;
+    }
+
+    public void setIncludeInPlan(boolean includeInPlan) {
+        this.includeInPlan = includeInPlan;
+    }
+
+    public void setDurationInMinutes(int durationInMinutes) {
+        this.durationInMinutes = durationInMinutes;
     }
 }
