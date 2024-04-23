@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3be61c55-0cb7-486c-b757-d3fd0e99474b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Encapsulation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ofEncapsulate/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ofEncapsulate/ProgrammeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScreenMatch-Alura" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenMatch-Alura" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ScreenMatch-Alura/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenMatch-Alura/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/alura/screenmatch/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Principal.executor": "Run",
+    "Application.ProgrammeMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -92,16 +95,5 @@
       <updated>1713794812392</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Principal.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
